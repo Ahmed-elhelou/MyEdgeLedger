@@ -1,0 +1,39 @@
+@media (max-width:768px){
+.navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navBar ul{
+   margin-top: .5rem;
+}
+
+.whatWeDo .items{flex-direction: column;}
+.whatWeDo .item{
+   border-bottom: 1px #93cb5269 solid;
+}
+.whatWeDo .item:last-child{
+    border-bottom: none;
+ }
+
+ .disableMobile{display: none;}
+ .contactUs{
+     flex-direction: column;
+ }
+ .map{
+    order: 0;
+    height: 120px;
+    background-color: #719b42;
+}
+}
+
+@media (min-width:1100px){
+    .whatWeDo .item {
+        display: flex;
+        flex-direction: row;
+    }
+    .whatWeDo .item i{
+       align-self: center;
+    }
+  
+}
